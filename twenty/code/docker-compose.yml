@@ -49,8 +49,7 @@ services:
       EMAIL_SMTP_PORT: ${EMAIL_SMTP_PORT}
       EMAIL_SMTP_USER: ${EMAIL_SMTP_USER}
       EMAIL_SMTP_PASSWORD: ${EMAIL_SMTP_PASSWORD}
-      FRONT_AUTH_CALLBACK_URL: ${FRONT_AUTH_CALLBACK_URL}
-	    IS_SIGN_UP_DISABLED: ${IS_SIGN_UP_DISABLED}
+      IS_SIGN_UP_DISABLED: ${IS_SIGN_UP_DISABLED}
     depends_on:
       change-vol-ownership:
         condition: service_completed_successfully
